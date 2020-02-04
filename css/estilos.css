@@ -1,0 +1,160 @@
+.cabeza {
+    visibility: hidden;
+    font-size: 0px;
+}
+
+.fotoCabeza{
+    display: block;
+    margin-left: 710px;
+    margin-top: -10px;
+    width: 250px;
+}
+
+header{background-color: darkgray;}
+
+nav ul li {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 375px;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Carter One', cursive;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.activo {background-color: lightgreen;}
+
+nav ul li:hover {background-color: palevioletred;}
+
+nav ul li a:hover {color: white;}
+
+body{
+    background-color: pink;
+}
+
+main{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+    margin-top: 50px;
+    color: black;
+}
+
+footer{
+    background-color: darkgray;
+    font-family: 'Carter One', cursive;
+    text-align: right;
+    color:black;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover{color: white;}
+
+table {width: 100%;}
+
+tr:hover {background-color: lightgreen;}
+
+.foto{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.precio{
+    text-align: center;
+    width: 150px;
+}
+
+.nombre{
+    font-family: 'Carter One', cursive;
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.nombre:hover {color:palevioletred}
+
+.parasitos {
+    width: 150px;
+    margin-left: 23px;
+}
+
+.arte {
+    width: 150px;
+    margin-left: 23px;
+}
+
+.zelda {
+    width: 150px;
+    margin-left: 23px;
+}
+
+.blue {
+    width: 150px;
+    margin-left: 23px;
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+
+.imagenProducto{
+    float: right;
+    margin-right: 60px;
+}
+
+.imagenProductoZelda{
+    float: right;
+    margin-right: 60px;
+    margin-top: -30px;
+}
+
+.imagenProductoBlue{
+    float: right;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+.valor{
+    margin-left: 250px;
+    margin-bottom: -35px;
+    font-family: 'Carter One', cursive;
+}
+
+.Boton{
+    background-color: whitesmoke;
+    width: 180px;
+    margin-left: 20px; 
+    margin-bottom: 500px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    color: black;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.Boton:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+main ul {
+    list-style-image: url("./../img/shuriken-star-ninja-samurai-icon.svg");
+}
