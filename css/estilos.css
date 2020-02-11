@@ -5,7 +5,7 @@
 
 .fotoCabeza{
     display: block;
-    margin-left: 710px;
+    margin: auto;
     margin-top: -10px;
     width: 250px;
 }
@@ -15,9 +15,9 @@ header{background-color: darkgray;}
 nav ul li {
     display: inline-block;
     background-color: whitesmoke;
-    width: 375px;
+    width: 23%;
     margin-top: -7px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 nav ul li a {
@@ -51,18 +51,18 @@ main p {
 }
 
 footer{
-    background-color: darkgray;
+    background-color: black;
     font-family: 'Carter One', cursive;
     text-align: right;
-    color:black;
+    color:white;
 }
 
 footer p a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-footer p a:hover{color: white;}
+footer p a:hover{color: palevioletred;}
 
 table {width: 100%;}
 
@@ -174,6 +174,15 @@ main ul li{
     margin-bottom: 20px;
 }
 
+.correo a {
+    text-decoration: none;
+    color: black;
+}
+
+.correo a:hover {
+    color: white;
+}
+
 .horario{
     list-style-image: url(./../img/horario.png);
     margin-bottom: 20px;
@@ -196,11 +205,62 @@ main ul li{
 
 iframe{
     display: block;
-    margin-left: 60px;
+    margin-left: 50%;
 }
 
 .contacto{
-    float: right;
     margin-top: -405px;
-    margin-right: 600px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+
+form{
+    padding-left: 43%;
+    margin-top: 30px;
+    width: 15%;
+
+}
+
+input{
+    margin-bottom: 20px;
+    background-color: lightgreen;
+    border-color: black;
+}
+
+textarea{
+    background-color: lightgreen;
+    border-color: black;
+}
+
+label{
+    font-family: 'Carter One', cursive;
+}
+
+.imagenIzquierda{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 80px;
+    opacity: 0.1;
+}
+
+.imagenDerecha{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 80px;
+    opacity: 0.1;
+}
+
+.Registrarse{
+    background-color: whitesmoke;
+    border-color: black;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Carter One', cursive;
+}
+
+.Registrarse:hover{
+    background-color: palevioletred;
+    border-color: whitesmoke;
+    color: whitesmoke;
 }

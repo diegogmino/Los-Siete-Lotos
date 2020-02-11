@@ -27,44 +27,39 @@
     </nav>
 
     <main>
+
+        <img class="imagenIzquierda" src="./img/Mascara.png" alt="Katana" width="330">
+        <img class="imagenDerecha" src="./img/Mascara.png" alt="Katana" width="330">
+
         <form>
-        <label for="Usuario">Usuario</label>
-        <br>
+        <label for="Usuario">Usuario*:</label>
         <input type="text" size="30" maxlenght="20" id="usuario" name= "usuario" required>
         <br>
-        <label for="password">Contraseña</label>
-        <br>
-        <input type="password" name="pass" id="pass" size="20" required>
+        <label class="contra" for="password">Contraseña*:</label>
+        <input class="contra" type="password" name="pass" id="pass" size="30" required>
         <br> 
-        <label for="Correo">Correo</label>
+        <label for="Correo">Correo electrónico*:</label>
+        <input type="email" name="correo" id="correo" required size="30">
         <br>
-        <input type="email" name="correo" id="correo" required>
+        <label for="Nombre">Nombre*:</label>
+        <input type="text" size="30" maxlenght="20" id="nombre" name= "nombre" required>
         <br>
-        <label for="Nombre">Nombre</label>
+        <label for="apellido1">Primer Apellido*:</label>
+        <input type="text" size="30" maxlength="20" id="apellido1" name="apellido1" required>
         <br>
-        <input type="text" size="20" maxlenght="20" id="nombre" name= "nombre" required>
+        <label for="apellido2">Segundo Apellido:</label>
+        <input type="text" size="30" maxlength="20" id="apellido2" name="apellido2">
         <br>
-        <label for="apellido1">Primer Apellido</label>
-        <br>
-        <input type="text" size="20" maxlength="20" id="apellido1" name="apellido1" required>
-        <br>
-        <label for="apellido2">Segundo Apellido (opcional)</label>
-        <br>
-        <input type="text" size="20" maxlength="20" id="apellido2" name="apellido2">
-        <br>
-        <label for="Fecha">Fecha de Nacimiento</label>
-        <br>
+        <label for="Fecha">Fecha de Nacimiento*:</label>
         <input type="date" name="fecha" id="fecha" required>
         <br>
-        <label for="Telefono">Teléfono móvil (opcional)</label>
+        <label for="Telefono">Teléfono móvil:</label>
+        <input type="text" size="30" name="telefono" id="telefono" placeholder="Ej: 981567841" minlength="9" maxlength="9">
         <br>
-        <input type="number" name="telefono" id="telefono" placeholder="Ej: 981567841" minlength="9" maxlength="9">
+        <label for="Direccion">Dirección:</label>
+        <textarea name="direccion" id="direccion" cols="26" rows="3"></textarea>
         <br>
-        <label for="Direccion">Dirección (opcional)</label>
-        <br>
-        <textarea name="direccion" id="direccion" cols="30" rows="3"></textarea>
-        <br>
-        <input type="submit" value="Registrarse">
+        <input class="Registrarse" type="submit" value="Registrarse">
         </form>
     </main>
 
